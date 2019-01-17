@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.RegisterActivity">
+
+    <!-- Comment this ImageView after you have handled the image background with Java at the Activity-->
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/backgroundhd"
+            android:scaleType="centerCrop"
+            android:id="@+id/formBack"
+            />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/formLogo"
+        android:src="@mipmap/my_logo"
+        android:scaleType="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/formLogo"
+        android:id="@+id/scrollView"
+        >
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+
+            >
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lütfen Bilgileri Giriniz."
+                android:typeface="monospace"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="10dp"
+          />
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Email"
+                android:typeface="monospace"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawableTint="@color/white"
+                android:drawableLeft="@drawable/ic_user_icon"
+                android:textSize="14sp"
+                android:drawablePadding="5dp"
+                android:paddingStart="10dp"
+                android:id="@+id/userEmailRegister"
+                android:layout_marginBottom="10dp"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/userNameRegister"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="15dp"
+                android:typeface="monospace"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/et_bg"
+                android:drawableLeft="@drawable/ic_user_icon"
+                android:drawablePadding="5dp"
+                android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:hint="Kullanıcı Adı"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/white"
+                android:textSize="14sp" />
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Şifre"
+                android:textColorHint="@color/white"
+        android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawableLeft="@drawable/ic_pass_icon"
+                android:textSize="14sp"
+                android:drawablePadding="5dp"
+                android:paddingStart="10dp"
+                android:inputType="textPassword"
+                android:id="@+id/userPasswordRegister"
+                android:layout_marginBottom="10dp"
+
+                android:paddingLeft="10dp" />
+            <AutoCompleteTextView
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:drawableTint="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:hint="Şifre Tekrar"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawableLeft="@drawable/ic_confirm_icon"
+                android:textSize="14sp"
+                android:drawablePadding="5dp"
+                android:paddingStart="10dp"
+                android:inputType="textPassword"
+                android:id="@+id/userCPasswordRegister"
+                android:layout_marginBottom="4dp"
+
+                android:paddingLeft="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_shape_default_rounded"
+                android:lineSpacingExtra="30sp"
+                android:onClick="onRegister"
+                android:text="KAYIT OL"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="24dp"
+                android:typeface="monospace" />
+            <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+                <TextView
+                    android:textAllCaps="false"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zaten bir hesabın var mı?"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="24sp"
+                    android:onClick="OpenLogin"
+                    android:text=" Giriş Yap"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace"></TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

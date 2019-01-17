@@ -8,7 +8,7 @@ Uygulamada üç ekran tek bir ana ekranda viewpager ve tablayout ile birleştiri
 <p float="left">
   <img src="https://user-images.githubusercontent.com/23018621/51313583-f91a2900-1a5e-11e9-8415-a792de8b022d.png" width=300>
 <img src="https://user-images.githubusercontent.com/23018621/51313584-f91a2900-1a5e-11e9-8786-03d38074aea5.png" width=300>
-<img src="https://user-images.githubusercontent.com/23018621/51315102-709d8780-1a62-11e9-8b33-b00edb4547a0.png" width=270>
+<img src="https://user-images.githubusercontent.com/23018621/51315102-709d8780-1a62-11e9-8b33-b00edb4547a0.png" width=250>
 </p>
 
 ## Uygulama Ekranları

@@ -25,7 +25,7 @@ Bütün Tasarımların XML dosyaları. Tasarımları kullanabilmek için, cardvi
 </p>
 
 ### Kayıt olma ve giriş
-
+Beni hatırla seçeneği ile oturum kontrolü sağlanmıştır.
 <p float="left">
 <img src="https://user-images.githubusercontent.com/23018621/51314564-19e37e00-1a61-11e9-9398-8118516f4bac.png" width=200>
 <img src="https://user-images.githubusercontent.com/23018621/51314563-194ae780-1a61-11e9-9411-280e7998d0ce.png" width=200>

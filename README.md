@@ -1,2 +1,2 @@
-# EhliyetTeoriUygulamas-
+# EhliyetTeoriUygulamasi
 Tasarımlar

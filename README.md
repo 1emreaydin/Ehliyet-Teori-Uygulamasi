@@ -14,14 +14,14 @@ Bütün Tasarımların XML dosyaları. Tasarımları kullanabilmek için, cardvi
 ### Uygulama Ekranları
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/23018621/51313585-f91a2900-1a5e-11e9-9eca-1edb93f2ebef.png" width=150>
-<img src="https://user-images.githubusercontent.com/23018621/51313586-f9b2bf80-1a5e-11e9-9640-f13bc9a7565b.png" width=150>
-<img src="https://user-images.githubusercontent.com/23018621/51313587-fa4b5600-1a5e-11e9-8444-57c20eb2dade.png" width=150>
+<img src="https://user-images.githubusercontent.com/23018621/51313585-f91a2900-1a5e-11e9-9eca-1edb93f2ebef.png" width=200>
+<img src="https://user-images.githubusercontent.com/23018621/51313586-f9b2bf80-1a5e-11e9-9640-f13bc9a7565b.png" width=200>
+<img src="https://user-images.githubusercontent.com/23018621/51313587-fa4b5600-1a5e-11e9-8444-57c20eb2dade.png" width=200>
 </p>
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/23018621/51314568-19e37e00-1a61-11e9-9ce9-cb1df718d732.png" width=150>
-<img src="https://user-images.githubusercontent.com/23018621/51314565-19e37e00-1a61-11e9-97db-a0a8d1a51d56.png" width=150>
+<img src="https://user-images.githubusercontent.com/23018621/51314568-19e37e00-1a61-11e9-9ce9-cb1df718d732.png" width=200>
+<img src="https://user-images.githubusercontent.com/23018621/51314565-19e37e00-1a61-11e9-97db-a0a8d1a51d56.png" width=200>
 </p>
 
 ### Kayıt olma ve giriş

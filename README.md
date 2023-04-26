@@ -1,4 +1,4 @@
-# EhliyetTeoriUygulamasi
+# Ehliyet Teori Uygulamasi
 ### Detaylar için: emreaydin1129@gmail.com
 ●	Android cihazlar için gerçekleştirdiğim üniversite bitirme projesi. Kategorize edilmiş resimli sorular, gerçek ehliyet teorik sınavı, trafik levha bilgileri, kullanıcı sıralamaları, anamenü tasarımı, testler sonrası detay ekranı, istatistik ekranı.
 
